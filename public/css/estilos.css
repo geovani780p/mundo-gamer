@@ -1,0 +1,23 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #00ffc3;
+    text-align: center;
+}
+
+nav a {
+    color: #00ffc3;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #ccc;
+}

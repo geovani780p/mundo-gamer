@@ -1,13 +1,23 @@
 <?php
-use App\Http\Controllers\InicioController;
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/inicio',function(){
     return view('inicio');
 });
 
-Route::get('/home',[InicioController::class,'index']);
+Route::get('/juegos', function () {
+    return view('juegos');
+});
+
+Route::get('/noticias', function () {
+    return view('noticias');
+});
+
+Route::get('/reseñas', function () {
+    return view('reseñas');
+});
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});
